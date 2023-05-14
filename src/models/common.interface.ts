@@ -16,3 +16,9 @@ export interface ValueResponse<T> {
   isSuccess: boolean;
   status: number;
 }
+
+export enum AvailableLanguage {
+  ru = "ru",
+  en = "en",
+  az = "az",
+}

@@ -14,7 +14,7 @@ import { DrawerHeaderProps } from "@react-navigation/drawer/src/types";
 function AppBar({ navigation }: DrawerHeaderProps) {
   return (
     <>
-      <StatusBar barStyle="light-content" />
+      <StatusBar barStyle="dark-content" translucent={true} hidden={false} />
       <Box safeAreaTop bg="violet.600" />
       <HStack
         bg="primary.500"

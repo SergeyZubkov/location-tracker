@@ -32,7 +32,7 @@ const toErrorWithMessage = (maybeError: unknown): ErrorWithMessage => {
 
 export const handleError = (error: unknown, message?: string) => {
   const errorWithMessage = toErrorWithMessage(error);
-
+  console.error(error);
   console.error(errorWithMessage);
 
   return Toast.show({

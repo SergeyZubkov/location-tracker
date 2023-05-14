@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "rn-erp",
-    "slug": "rn-erp",
+    "slug": "erpmobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.sergeyzubkov.erpmobile"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f27b7992-13d3-45e6-8b40-a481e760e882"
+      }
+    },
+    "owner": "sergeyzubkov"
   }
 }
